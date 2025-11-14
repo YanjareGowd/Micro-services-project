@@ -26,3 +26,2626 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.IExtensi
 	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:114)
 	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-11-14 10:54:59.130 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 10:55:06.153
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 10:55:08.524
+!MESSAGE Logback config file: C:\Users\hvpra\Desktop\Yanjare\Micro-services\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 10:55:20.227
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hvpra'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-11-14 10:56:09.803 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 10:56:13.589
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 10:56:15.690
+!MESSAGE Logback config file: C:\Users\hvpra\Desktop\Yanjare\Micro-services\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 10:56:23.465
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hvpra'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-14 10:59:04.032
+!MESSAGE The POM for org.mongodb:mongodb-driver-core:jar:5.5.2 is invalid, transitive dependencies (if any) will not be available: 4 problems were encountered while building the effective model for org.mongodb:mongodb-driver-core:5.5.2
+[FATAL] Non-parseable POM C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom: end tag name </head> must be the same as start tag <link> from line 15 (position: TEXT seen ...</script>\n\n\n</head>... @20:8)  @ C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom, line 20, column 8
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-11-14 11:17:27.621
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://download.eclipse.org/buildship/updates/e410/releases/3.x/3.1.10.v20250903-1508/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:476)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:157)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:79)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2025-11-14 11:17:27.622
+!MESSAGE No repository found at https://download.eclipse.org/buildship/updates/e410/releases/3.x/3.1.10.v20250903-1508/.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 2 2025-11-14 11:17:27.624
+!MESSAGE Skipping update check for repository 'https://download.eclipse.org/buildship/updates/e410/releases/3.x' - failed to read repository. Affected entries: 
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at https://download.eclipse.org/buildship/updates/e410/releases/3.x.
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:167)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:79)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://download.eclipse.org/buildship/updates/e410/releases/3.x/3.1.10.v20250903-1508/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:476)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:157)
+	... 18 more
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1002 2025-11-14 11:17:27.624
+!MESSAGE Unable to read repository at https://download.eclipse.org/buildship/updates/e410/releases/3.x.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://download.eclipse.org/buildship/updates/e410/releases/3.x/3.1.10.v20250903-1508/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:417)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:388)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:279)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:476)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:157)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:79)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:587)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:338)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 1000 2025-11-14 11:17:27.624
+!MESSAGE No repository found at https://download.eclipse.org/buildship/updates/e410/releases/3.x/3.1.10.v20250903-1508/.
+!SUBENTRY 1 org.eclipse.epp.mpc.ui 1 0 2025-11-14 11:17:27.624
+!MESSAGE Buildship Gradle Integration 3.0
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-11-14 11:17:29.472
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-11-14 11:17:29.475
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:35)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-11-14 11:17:29.479
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait0(Native Method)
+	at java.base/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:45)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:999)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:355)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:73)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:109)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:124)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:129)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:275)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:427)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:364)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:109)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:799)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:448)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:231)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:520)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.052
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.terminal.api,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.053
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.branding,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.053
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.core,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.054
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.core.agent.win32,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.055
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.ui,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-11-14 11:19:23.056
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.microsoft.copilot.eclipse.feature,0.12.0.202510160637 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+!SESSION 2025-11-14 11:19:38.966 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/hvpra/Desktop/Yanjare/Micro-services/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 11:19:45.562
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 11:19:50.355
+!MESSAGE Logback config file: C:\Users\hvpra\Desktop\Yanjare\Micro-services\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 11:19:59.708
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hvpra'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 11:19:59.832
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 11:19:59.838
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 11:20:02.486
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:20:15.443
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.381.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:20:15.508
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:20:18.247
+!MESSAGE [Info]	[certificates] Removed 94 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:21:36.014
+!MESSAGE [Info]	[auth] Invalid copilot token: missing token: 403 
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:21:37.489
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.ui 4 0 2025-11-14 11:21:38.364
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.microsoft.copilot.eclipse.core.lsp.protocol.CopilotModel.getId()" because "this.defaultModel" is null
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.restoreActiveModel(ModelService.java:231)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.validateAndSetActiveModelForMode(ModelService.java:276)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$8(ModelService.java:257)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.updateModelsForChatMode(ModelService.java:254)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$6(ModelService.java:141)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$5(ModelService.java:140)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:608)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:404)
+	at org.eclipse.jface.dialogs.MessageDialog.openInformation(MessageDialog.java:501)
+	at com.microsoft.copilot.eclipse.ui.handlers.SignInHandler$SignInJob.showSignInSuccessMessage(SignInHandler.java:133)
+	at com.microsoft.copilot.eclipse.ui.handlers.SignInHandler$SignInJob.handleSignInConfirmation(SignInHandler.java:125)
+	at com.microsoft.copilot.eclipse.ui.handlers.SignInHandler$SignInJob.lambda$1(SignInHandler.java:113)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:166)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:39.636
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:40.366
+!MESSAGE [Info]	[fetchCompletions] Request 32256567-dae7-483c-9ad6-8b5de8cf0f66 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 710.698400000023ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:40.427
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:40.722
+!MESSAGE [Info]	[fetchCompletions] Request 9991b1e1-a53f-4ba0-8db5-1c9979a9a464 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.7335000000021ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:40.781
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:41.177
+!MESSAGE [Info]	[fetchCompletions] Request b8c86b2b-af02-471e-bd59-492844316090 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 297.4068000000261ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:22:41.242
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:17.817
+!MESSAGE [Info]	[fetchCompletions] Request 2c350487-21c2-4571-8d30-a2c2ebe041b2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 277.4952999999805ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:17.877
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:18.214
+!MESSAGE [Info]	[fetchCompletions] Request 7df623ac-23f7-4816-88d0-a85e83584bb9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.21059999999125ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:18.289
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:18.857
+!MESSAGE [Info]	[fetchCompletions] Request 1335ee47-e301-4e55-ba44-3e375cdf1903 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.33869999999297ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:18.918
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:31.159
+!MESSAGE [Info]	[fetchCompletions] Request c3a8a97a-632c-486e-a117-2e183c7df330 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 295.84580000001006ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:31.216
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:35.716
+!MESSAGE [Info]	[fetchCompletions] Request 4425ac8d-c56c-42b3-8504-d017a2af59df at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.6491999999853ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:35.719
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:36.412
+!MESSAGE [Info]	[fetchCompletions] Request ae0c1201-e6bc-4b87-bfa9-de1c5c4c866e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.08319999999367ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:36.413
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:37.820
+!MESSAGE [Info]	[fetchCompletions] Request 37acf746-6365-4362-9fee-c0def4123d1d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 303.4427999999898ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:23:37.847
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:09.652
+!MESSAGE [Info]	[fetchCompletions] Request 17319e6b-6176-474b-8fa4-1004b069c7b9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 261.2890999999945ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:09.714
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:10.125
+!MESSAGE [Info]	[fetchCompletions] Request a2131795-4746-4b13-8b7f-41ddbb087a2f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.41909999999916ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:10.187
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:10.799
+!MESSAGE [Info]	[fetchCompletions] Request 951e0285-242d-41dc-8e09-992e85477e01 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.5965000000142ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:10.868
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:12.375
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:12.376
+!MESSAGE [Info]	[fetchCompletions] Request f3f13a15-8701-406f-9e07-0c36078c7578 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.78059999999823ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:14.261
+!MESSAGE [Info]	[fetchCompletions] Request 1999d0ab-195d-4333-9567-194c19dbccb5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.76660000000265ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:14.403
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:14.670
+!MESSAGE [Info]	[fetchCompletions] Request edd4d3b2-73fa-4907-83e0-5e4cf550a4cd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.5097999999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:14.786
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:15.184
+!MESSAGE [Info]	[fetchCompletions] Request 86b28365-2929-407e-ba6e-9767cfbfba1b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.5749000000069ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:15.325
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:15.623
+!MESSAGE [Info]	[fetchCompletions] Request ece0f6b7-70ed-47c9-ba20-f9b826da169c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.01660000000265ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:15.623
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:17.491
+!MESSAGE [Info]	[fetchCompletions] Request 60b6335b-70e7-44c0-955b-7d74b1a3de65 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.90910000001895ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:17.622
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:17.996
+!MESSAGE [Info]	[fetchCompletions] Request f0ec2c8d-5377-4d55-9ed3-edea52cddaba at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 355.36269999999786ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:17.998
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:18.566
+!MESSAGE [Info]	[fetchCompletions] Request 4d6626d3-8349-4cdc-b2f0-e926448c4cce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.9776000000129ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:18.626
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:21.878
+!MESSAGE [Info]	[fetchCompletions] Request 693f4fc5-a610-46ca-b03b-5cc65dd60a1d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.75599999999395ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:21.937
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:22.436
+!MESSAGE [Info]	[fetchCompletions] Request d8813e1d-fb83-47c0-9712-f0bfd8040399 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 273.72219999998924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:22.439
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:51.730
+!MESSAGE [Info]	[fetchCompletions] Request 4b13a303-c0ae-413b-93b4-230e1ae10dc4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 297.7975999999908ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:51.734
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:53.657
+!MESSAGE [Info]	[fetchCompletions] Request e7752724-d54f-4c9b-b141-8e9eef654215 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.73420000000624ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:53.734
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:54.069
+!MESSAGE [Info]	[fetchCompletions] Request 93577c93-6b78-45a9-b0ea-4f91a68093f7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 298.06529999995837ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:54.069
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:57.098
+!MESSAGE [Info]	[fetchCompletions] Request bd84456e-2f0c-4793-8a7f-e03ecf88786d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 309.0503000000026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:57.182
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:57.457
+!MESSAGE [Info]	[fetchCompletions] Request 77c78d0d-118f-41dc-9e93-15bdaa866091 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.01819999999134ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:24:57.457
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:00.451
+!MESSAGE [Info]	[fetchCompletions] Request 7f3c42d7-1eca-42f3-b01b-1e85465fd354 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 274.1714000000502ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:00.543
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:00.835
+!MESSAGE [Info]	[fetchCompletions] Request a0bad5ac-6487-4808-80d4-1a35fc3dd046 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.67849999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:00.835
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:01.281
+!MESSAGE [Info]	[fetchCompletions] Request 926508ca-5a62-46ce-98e8-2775d6a47631 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.50740000000224ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:01.281
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:05.652
+!MESSAGE [Info]	[fetchCompletions] Request 2434af8f-4010-4794-ab39-40772f7157f1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 308.41319999995176ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:05.721
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:06.017
+!MESSAGE [Info]	[fetchCompletions] Request 93d82520-315d-4e81-934b-f988dc005d53 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.34639999998035ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:06.032
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:10.891
+!MESSAGE [Info]	[fetchCompletions] Request 0e435ade-df10-460b-8ef9-62bc33b50b84 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 392.576699999976ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:10.980
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:11.323
+!MESSAGE [Info]	[fetchCompletions] Request 52e2fede-c680-487c-b171-c3cdf70ed63e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.1772999999812ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:11.379
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:14.499
+!MESSAGE [Info]	[fetchCompletions] Request 4971a7bb-f5dc-4228-b530-b3a31524567e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.9112999999779ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:14.575
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:14.883
+!MESSAGE [Info]	[fetchCompletions] Request f94e66fa-3b17-4191-9d61-b39ac0b9d5ab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.6357999999891ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:15.008
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:16.250
+!MESSAGE [Info]	[fetchCompletions] Request 5cc6c9ef-efc2-493b-9fc7-3ccd8e61dbdf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 339.34580000001006ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:16.346
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:16.648
+!MESSAGE [Info]	[fetchCompletions] Request 2c6a293d-4543-42cd-bf94-5edf570d47c1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.82360000000335ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:16.697
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:17.725
+!MESSAGE [Info]	[fetchCompletions] Request f99f0e75-6452-4e9b-b3f1-60ebb033a2da at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.9122999999672ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:17.725
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:18.566
+!MESSAGE [Info]	[fetchCompletions] Request 1e47819b-dfd1-4e0e-814e-3c750a43510d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 273.45610000001034ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:18.567
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.059
+!MESSAGE [Info]	[fetchCompletions] Request 8bf8757c-da1c-4968-a890-08fee12d58dd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 265.3988000000245ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.173
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.448
+!MESSAGE [Info]	[fetchCompletions] Request c640841c-75b4-4e26-940e-e8345d6f048f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.9077999999863ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.508
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.801
+!MESSAGE [Info]	[fetchCompletions] Request 54c437ae-9f34-4a54-b899-7295afd526d8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.8288000000175ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:20.863
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:21.462
+!MESSAGE [Info]	[fetchCompletions] Request d1c69b49-dd9e-4062-8495-8704f3e57f11 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 308.1736999999848ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:21.526
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:25.511
+!MESSAGE [Info]	[fetchCompletions] Request 7fa8c332-1a46-485a-a40b-ed10313c9723 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.506699999969ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:25.588
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:26.405
+!MESSAGE [Info]	[fetchCompletions] Request 373889c9-88fb-4707-a069-ce3ccec0962c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.8571000000229ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:26.463
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:27.087
+!MESSAGE [Info]	[fetchCompletions] Request 4037d8aa-aac5-4879-9aeb-8b228b7db192 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.38530000002356ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:27.151
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:29.734
+!MESSAGE [Info]	[fetchCompletions] Request d0ed5167-4c17-45d4-b57f-4316208747c5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.9159000000218ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:29.795
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:30.192
+!MESSAGE [Info]	[fetchCompletions] Request 845343a9-1105-4fba-9502-09b69adb6a59 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.7800999999745ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:30.253
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:30.551
+!MESSAGE [Info]	[fetchCompletions] Request 94beae9f-410b-4506-80a4-1a94c07327f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.0093000000343ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:30.606
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:31.769
+!MESSAGE [Info]	[fetchCompletions] Request a15ede4c-7c1e-44a1-beff-6aaf1d11e232 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 266.79349999997066ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:31.838
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:32.193
+!MESSAGE [Info]	[fetchCompletions] Request 34065498-acff-42e4-adc3-2cb0e5417dcd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 291.25990000000456ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:32.251
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:35.034
+!MESSAGE [Info]	[fetchCompletions] Request 06a84f0b-7854-4f3a-94ff-8b0ac662962e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 266.1447000000044ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:35.106
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:50.740
+!MESSAGE [Info]	[fetchCompletions] Request 17506e66-1de9-4c71-a59d-d417135f36a2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 270.18249999999534ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:50.801
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:53.684
+!MESSAGE [Info]	[fetchCompletions] Request ec5f2401-2117-43a7-8acd-1f083663ac57 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.0542000000132ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:53.751
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:54.364
+!MESSAGE [Info]	[fetchCompletions] Request 4a8463f4-593b-47af-81aa-fdb06a4d4698 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 390.1904000000213ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:54.417
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:54.730
+!MESSAGE [Info]	[fetchCompletions] Request 855caa3c-c863-4dc0-ad00-05fd38a48ebd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.08909999998286ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:54.794
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:55.079
+!MESSAGE [Info]	[fetchCompletions] Request 96fce1eb-40e0-4f74-ac2e-c7f1249e4e38 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.0926000000327ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:25:55.187
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:50.817
+!MESSAGE [Info]	[fetchCompletions] Request 9ba61b3f-5a09-4cc8-bab6-e045bd1b355d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.0328000000445ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:50.883
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:51.360
+!MESSAGE [Info]	[fetchCompletions] Request e647864f-1c59-4608-947c-1ecfbdfe1e8d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.88400000002ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:51.427
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:52.133
+!MESSAGE [Info]	[fetchCompletions] Request 531b03d9-ab7c-4354-8e72-38465144f0f8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.0083999999915ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:52.194
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:52.480
+!MESSAGE [Info]	[fetchCompletions] Request 3ce45754-f25d-47bf-994a-db66be9a9ef6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 265.4030999999959ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:52.538
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:56.517
+!MESSAGE [Info]	[fetchCompletions] Request 32c55602-b8d5-47af-92af-e04b02e25136 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 292.2975999999908ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:56.582
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:56.877
+!MESSAGE [Info]	[fetchCompletions] Request 3ac74e78-8cca-400a-9a02-a293e46cde6c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.04810000001453ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:56.954
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:57.251
+!MESSAGE [Info]	[fetchCompletions] Request cc21a7e4-71af-4d0b-a812-29bfeaec6f5f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.4128999999957ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:57.312
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:26:59.777
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:27:02.073
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:27:15.502
+!MESSAGE [Info]	[fetchCompletions] Request 5aa22c15-e315-4ebc-a8ab-cc431a5ef6a5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 282.22060000000056ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:27:15.560
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:53.508
+!MESSAGE [Info]	[fetchCompletions] Request 01177404-b4a2-418d-9c02-1bfe4648a83a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.4741999999387ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:53.648
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:53.968
+!MESSAGE [Info]	[fetchCompletions] Request 448add2e-812d-4783-a74a-515e214347c1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 303.3934999998892ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-14 11:28:54.019
+!MESSAGE [Error]	[AsyncCompletionManager] [448add2e-812d-4783-a74a-515e214347c1] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at C:\snapshot\copilot-client\lib\src\networking.ts:105:19
+    at QIe.invoke (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:55:39)
+    at t.fire (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:117:36)
+    at fee.cancel (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\cancellation.js:41:31) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:54.344
+!MESSAGE [Info]	[fetchCompletions] Request 7d3bb59a-27a9-40ed-b2a7-b39f36a0e372 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 323.4435999999987ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:54.493
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:54.823
+!MESSAGE [Info]	[fetchCompletions] Request f7ded219-ebaf-4d7d-873e-b960a7f405ae at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.16659999999683ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:54.887
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:56.872
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:57.153
+!MESSAGE [Info]	[code-referencing] Match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:57.154
+!MESSAGE [Info]	[code-referencing] Calling FilesForMatch
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:28:57.464
+!MESSAGE [Info]	[Public Code References] Text found matching public code in file:///c%3A/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/controller/ProductController.java [Ln 16, Col 31] near web.bind.annotation.RequestMapping;  import org.springframework.web.bind.annotation.ResponseStatus;  import org.springframework.web.bind.annotation.RestController;    @RestController  @RequestMapping("/api/product")  public class ProductController {  	  	  	@PostMapping  	@ResponseStatus(HttpStatus.CREATED)  	public void createProduct(@re) { 		 	}    }  ...:
+  1) [unknown] https://github.com/github-copilot/code_referencing?cursor=0d76c4af043253aa7583a6f8c06bffdd,
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:23.648
+!MESSAGE [Info]	[fetchCompletions] Request f3ad3ecd-7540-47bb-b8f1-2bf344e306f1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.4167000000598ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:23.710
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:24.004
+!MESSAGE [Info]	[fetchCompletions] Request 4b7cb080-ba04-4543-8c92-6444a1ed5054 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.9941000000108ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:24.059
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:26.925
+!MESSAGE [Info]	[fetchCompletions] Request 15e1ce0e-d527-4a05-970b-2932181f335c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 259.2412999999942ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:27.014
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:27.309
+!MESSAGE [Info]	[fetchCompletions] Request 9e475e56-552a-4121-88e1-b72d7d7ba023 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.18920000002254ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:27.381
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:31.003
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:31.289
+!MESSAGE [Info]	[code-referencing] Match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:31.290
+!MESSAGE [Info]	[code-referencing] Calling FilesForMatch
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:29:31.595
+!MESSAGE [Info]	[Public Code References] Text found matching public code in file:///c%3A/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/controller/ProductController.java [Ln 17, Col 44] near .bind.annotation.RequestMapping;  import org.springframework.web.bind.annotation.ResponseStatus;  import org.springframework.web.bind.annotation.RestController;    @RestController  @RequestMapping("/api/product")  public class ProductController {  	  	  	@PostMapping  	@ResponseStatus(HttpStatus.CREATED)  	public void createProduct(@RequestBody Pro) { 		// Logic to create a pr...:
+  1) [unknown] https://github.com/github-copilot/code_referencing?cursor=0d76c4af043253aa7583a6f8c06bffdd,
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-14 11:30:44.552
+!MESSAGE The POM for org.mongodb:mongodb-driver-core:jar:5.5.2 is invalid, transitive dependencies (if any) will not be available: 4 problems were encountered while building the effective model for org.mongodb:mongodb-driver-core:5.5.2
+[FATAL] Non-parseable POM C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom: end tag name </head> must be the same as start tag <link> from line 15 (position: TEXT seen ...</script>\n\n\n</head>... @20:8)  @ C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom, line 20, column 8
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:30:49.104
+!MESSAGE [Info]	[fetchCompletions] Request c31ff670-a334-425a-bd8b-12022cd9fd41 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.2166000000434ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:30:49.199
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:30:49.528
+!MESSAGE [Info]	[fetchCompletions] Request 80b9cba2-1895-4717-aaef-9ea46e06921e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.70900000003166ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:30:49.536
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:32:22.511
+!MESSAGE [Info]	[fetchCompletions] Request 9a140dfb-883d-4b0a-8789-3c4880053e4e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.76189999992494ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:32:22.574
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:32:35.914
+!MESSAGE [Info]	[fetchCompletions] Request d97b835f-4d38-4b89-b702-8870d83ee977 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.3531999998959ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:32:35.915
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:33:13.061
+!MESSAGE [Info]	[fetchCompletions] Request 4288b02e-c259-40b7-ae58-129e6935869c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.5424999999814ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:33:13.120
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:01.606
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:01.607
+!MESSAGE [Info]	[fetchCompletions] Request 00aa47dd-8224-45d2-873a-8fd8865bbc09 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 290.32660000002943ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.074
+!MESSAGE [Info]	[fetchCompletions] Request 0ea3e046-6807-4402-a12b-87e621054fac at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.53449999995064ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.162
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.468
+!MESSAGE [Info]	[fetchCompletions] Request aec96406-0518-4fc3-8f81-e8953759c2f7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.0900000000838ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.591
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.889
+!MESSAGE [Info]	[fetchCompletions] Request 6f8eb288-3137-403d-8a03-ff47eb5a4c71 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 289.60089999996126ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:02.963
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:03.354
+!MESSAGE [Info]	[fetchCompletions] Request 97f4e9ff-f5b0-4e00-8fc7-b5c03cad51be at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 340.68370000005234ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:03.420
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:03.974
+!MESSAGE [Info]	[fetchCompletions] Request 9a388ba5-92d5-4ad8-944b-eabe23fff2a7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 316.721300000092ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:03.977
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:04.554
+!MESSAGE [Info]	[fetchCompletions] Request ef7bca74-2120-4310-8e39-7aaab4902be4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 274.47810000006575ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:04.635
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:04.968
+!MESSAGE [Info]	[fetchCompletions] Request 919c07e8-baa8-4129-ad1f-c3d58ac7cf43 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.25760000001173ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:04.971
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:06.147
+!MESSAGE [Info]	[fetchCompletions] Request 09e28cbd-8f01-4b8c-b5f6-91f0e6a635ca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 302.312900000019ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:06.153
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:06.510
+!MESSAGE [Info]	[fetchCompletions] Request 3af89d9f-f21c-4e75-a6b6-cc40c5da4e6c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.3020999999717ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:06.511
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.203
+!MESSAGE [Info]	[fetchCompletions] Request 79d9c4ac-faae-4fa7-89d5-0f0a4946bb2c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.1322999999393ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.266
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.573
+!MESSAGE [Info]	[fetchCompletions] Request 06648eb9-5ff7-4857-bd5b-d0502aa8d943 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.5844999999972ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.637
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.948
+!MESSAGE [Info]	[fetchCompletions] Request 147a6620-17a1-446b-920c-6b235193c35d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 289.05570000002626ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:07.948
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:09.768
+!MESSAGE [Info]	[fetchCompletions] Request 02c4fbc6-fc31-4fb4-8adb-0c3fc99787d2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.5091999999713ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:09.769
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:14.496
+!MESSAGE [Info]	[fetchCompletions] Request f174e897-0f2f-4729-8a0f-60de5a77d1e6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 343.83050000004005ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:14.497
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:20.897
+!MESSAGE [Info]	[fetchCompletions] Request 66064474-47b6-4013-ae44-50042169d8e6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.63449999992736ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:20.957
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:26.644
+!MESSAGE [Info]	[fetchCompletions] Request b2ba5264-8432-4ad8-9d14-bd7c2255618b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 287.2872000000207ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:26.702
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:27.316
+!MESSAGE [Info]	[fetchCompletions] Request 32ed6d8a-95af-4bb0-b991-734eac6c90b9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.39159999997355ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:27.317
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:27.906
+!MESSAGE [Info]	[fetchCompletions] Request a5a801f4-cfd5-47d5-a5dc-a16e094748a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.2837999999756ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:28.078
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:28.400
+!MESSAGE [Info]	[fetchCompletions] Request 80cb6e95-e27d-4536-a104-ca58a9af7a76 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 309.39280000003055ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:28.493
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:28.823
+!MESSAGE [Info]	[fetchCompletions] Request c00ba1f4-3751-4d05-83d4-aaa525771916 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.60289999993984ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:28.825
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:32.279
+!MESSAGE [Info]	[fetchCompletions] Request f25c2b5a-0244-43d6-9698-f92bd6f2ab5c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.60550000006333ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:32.361
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:32.662
+!MESSAGE [Info]	[fetchCompletions] Request 5abe9174-104a-468b-83d1-a5a03d14d2a8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.21530000003986ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:32.663
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:36.610
+!MESSAGE [Info]	[fetchCompletions] Request f2f75071-425b-4f7f-bbe7-535cab177fc9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.3761999999406ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:36.624
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:41.616
+!MESSAGE [Info]	[fetchCompletions] Request e4c83112-9190-4d92-9b97-53435ac9c584 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.2841999999946ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:41.675
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.090
+!MESSAGE [Info]	[fetchCompletions] Request 6da0fd37-eab7-4e32-81c1-2c3fa0533571 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 294.1135999999242ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.150
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.420
+!MESSAGE [Info]	[fetchCompletions] Request 3098e23d-3426-4f4e-bcb2-d903561477b8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.47629999998026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.483
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.818
+!MESSAGE [Info]	[fetchCompletions] Request d3ec2a06-292c-4af6-8e40-b52742558bb5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 297.24849999998696ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:42.873
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:43.644
+!MESSAGE [Info]	[fetchCompletions] Request 6def5a2a-33e8-47fd-92ea-b7f3fb23268d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.0470000000205ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:43.707
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:44.173
+!MESSAGE [Info]	[fetchCompletions] Request 54a1f697-4aa1-4a76-8da5-43bb0d018bbc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.26169999991544ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:44.242
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:44.627
+!MESSAGE [Info]	[fetchCompletions] Request 9924c4b9-6f40-4b43-a690-9e18dd3ce974 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.2421000000322ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:44.686
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:48.021
+!MESSAGE [Info]	[fetchCompletions] Request b53a7422-7ac4-4b4d-b6c0-b6c94d2fdd5b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.6050999999279ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:34:48.079
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:08.486
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:08.488
+!MESSAGE [Info]	[fetchCompletions] Request 36ddcf04-5582-41de-affc-f2c07894fdb3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.93169999995735ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:10.451
+!MESSAGE [Info]	[fetchCompletions] Request e02ff81c-a17e-4588-8dda-27fd0bac3d47 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.53080000006594ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:10.455
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:11.382
+!MESSAGE [Info]	[fetchCompletions] Request 23e8c6c6-fc07-49c3-a65d-6a3bebca8931 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.09210000000894ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:11.445
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:11.763
+!MESSAGE [Info]	[fetchCompletions] Request 1dd18b82-1715-4cf6-a1a0-d4579c1ad20c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 294.453600000008ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:11.765
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:16.528
+!MESSAGE [Info]	[fetchCompletions] Request 27381750-bedf-472f-86ff-a6d0180b2c92 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.4502999999095ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:16.594
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:27.976
+!MESSAGE [Info]	[fetchCompletions] Request d690d4e6-cdc1-49bc-af9c-509405b7854c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.07790000003297ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:28.038
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:29.018
+!MESSAGE [Info]	[fetchCompletions] Request 96d31382-79c2-47e4-b7db-df7b3838f46a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.36719999997877ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:29.080
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:33.119
+!MESSAGE [Info]	[fetchCompletions] Request d99b6dc8-581f-4233-a825-45981905db63 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.45290000003297ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:33.122
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:36.778
+!MESSAGE [Info]	[fetchCompletions] Request ade7560f-0c6d-4969-98f7-044a20d47277 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 290.48589999997057ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:35:36.847
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:44.661
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:44.661
+!MESSAGE [Info]	[fetchCompletions] Request c035629b-a95a-41dc-ba64-8f52671c8a4d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 276.204000000027ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:44.986
+!MESSAGE [Info]	[fetchCompletions] Request 9f236ddc-debc-48aa-97b8-6b59e38be3d1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 262.1846000000369ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:44.988
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:49.061
+!MESSAGE [Info]	[fetchCompletions] Request da1f0a5c-e4b8-4a51-8282-fefeb9b14522 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.54180000000633ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:49.141
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:49.433
+!MESSAGE [Info]	[fetchCompletions] Request 80e54148-0896-4a9f-a2f4-fa02c05e7890 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.0899999999674ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:49.438
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:57.436
+!MESSAGE [Info]	[fetchCompletions] Request ea88fcfe-f082-475d-8557-66b13de348b3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 322.063700000057ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:36:57.439
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:01.957
+!MESSAGE [Info]	[fetchCompletions] Request 9fe8c8b9-db7f-49c0-9a97-21cf54546e48 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 289.06160000001546ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:02.016
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:02.505
+!MESSAGE [Info]	[fetchCompletions] Request aa97c144-2913-424d-a9ec-5cc56a87da38 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 291.94899999990594ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:02.567
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:04.472
+!MESSAGE [Info]	[fetchCompletions] Request fbca468a-5fe0-480f-ab19-f11af814e3b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 294.37309999996796ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:04.547
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:05.068
+!MESSAGE [Info]	[fetchCompletions] Request 469abf28-7a2b-46c6-acf1-9c3308a119bb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 437.19189999997616ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:05.131
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:09.415
+!MESSAGE [Info]	[fetchCompletions] Request a16ce69e-6490-4554-8b33-4ab0c38eb068 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 277.969000000041ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:09.634
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:09.950
+!MESSAGE [Info]	[fetchCompletions] Request 3d616a10-e7a4-43a0-a1a8-e815920250f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 301.97259999997914ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:09.953
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:10.490
+!MESSAGE [Info]	[fetchCompletions] Request 788191c8-4f6a-4f81-8433-9a83f87c010c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 298.1212999999989ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:10.552
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:11.499
+!MESSAGE [Info]	[fetchCompletions] Request a6ecbccc-cf5b-4a9c-952b-662717b8ccb1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 270.98439999995753ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:11.757
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:12.331
+!MESSAGE [Info]	[fetchCompletions] Request 7b605797-c2fc-471a-9dac-8ad6198d4076 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.9514999999665ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:12.446
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:12.717
+!MESSAGE [Info]	[fetchCompletions] Request 021029b4-8732-4560-9c7b-522a5b96c0ac at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.91969999996945ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:12.837
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:19.364
+!MESSAGE [Info]	[fetchCompletions] Request bae08cd9-11cb-42b4-84f9-c0181a969573 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 266.87979999999516ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:19.424
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:20.116
+!MESSAGE [Info]	[fetchCompletions] Request 7af17507-1040-4024-8db9-6d019a32a72f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.1506999999983ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:20.183
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:20.507
+!MESSAGE [Info]	[fetchCompletions] Request 1a457ea0-265e-4e0f-b261-af67f003bf2e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 301.07419999991544ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:20.622
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:23.999
+!MESSAGE [Info]	[fetchCompletions] Request 50498c59-5a64-4f49-9e1d-3f3eec7c6062 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 281.48829999996815ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:24.093
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:24.383
+!MESSAGE [Info]	[fetchCompletions] Request 9ff1a401-b99f-4dff-a2a5-8b472297b9b9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.9096000000136ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:24.445
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:27.914
+!MESSAGE [Info]	[fetchCompletions] Request c1b5396e-f005-47c9-89b6-7bbd20b64f37 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 288.0315999999875ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:27.978
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:31.195
+!MESSAGE [Info]	[fetchCompletions] Request d1407932-1f92-4817-9623-cb7995ab21c9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.1601999999257ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:31.256
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:32.006
+!MESSAGE [Info]	[fetchCompletions] Request 63694c6e-d5cc-4979-93c3-31b20deb0bed at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.37830000009853ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:32.172
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:32.465
+!MESSAGE [Info]	[fetchCompletions] Request 8bb215d1-952f-41c6-9344-9845350a1804 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.9627999998629ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:32.477
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:39.043
+!MESSAGE [Info]	[fetchCompletions] Request 387a4830-52d7-44fe-8896-8a5488b0793a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 282.06440000003204ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:39.311
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:39.625
+!MESSAGE [Info]	[fetchCompletions] Request d8762a4e-d37b-4d04-a96c-00735b8c4552 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.7227999998722ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:39.627
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:41.513
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:42.345
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:49.444
+!MESSAGE [Info]	[fetchCompletions] Request 826262a0-8e58-4424-9d06-fb7005a13b9f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.78879999998026ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:37:49.511
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:37.184
+!MESSAGE [Info]	[fetchCompletions] Request 893fcf76-7449-4bf1-82c6-6282136017ca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.0829000000376ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:37.262
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:37.636
+!MESSAGE [Info]	[fetchCompletions] Request 5f5fb682-46f1-402d-a6f3-83e1f349868a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.5411000000313ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:37.697
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:39.773
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:38:40.053
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:13.960
+!MESSAGE [Info]	[fetchCompletions] Request 57039192-f7b0-4504-85f8-7cc468d3bd18 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 296.5986999999732ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:14.029
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:14.330
+!MESSAGE [Info]	[fetchCompletions] Request 2920e0e9-23c9-4106-96bf-6a6d6ad8d98e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.2247999999672ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:14.400
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:16.185
+!MESSAGE [Info]	[fetchCompletions] Request 87e63de5-adaf-4d60-8199-08c609e1d30b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.938700000057ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:16.248
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:16.635
+!MESSAGE [Info]	[fetchCompletions] Request 2a2e5435-b961-4572-9420-915cc5f597ab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 362.52169999992475ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:16.698
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:19.993
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:20.276
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:24.784
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:25.064
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:28.744
+!MESSAGE [Info]	[fetchCompletions] Request aa845555-28cc-43ae-ad28-ee5276e7fe36 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 265.3302999997977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:28.813
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:29.125
+!MESSAGE [Info]	[fetchCompletions] Request f120e4cb-f5ce-4a82-be8c-b2ace0d9dafb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 300.2785000000149ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:29.213
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:33.505
+!MESSAGE [Info]	[fetchCompletions] Request 802176cd-41a8-4748-bffd-437ab80f888a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 270.00010000006296ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:33.569
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:33.840
+!MESSAGE [Info]	[fetchCompletions] Request f376fd76-41bb-4fbf-ba4c-35efe223bbf2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 259.73529999982566ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:33.919
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:35.023
+!MESSAGE [Info]	[fetchCompletions] Request 988e3bb9-7881-46e2-a928-7902b8894593 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 364.20200000004843ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:35.082
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:37.135
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:39:37.417
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:40:19.248
+!MESSAGE [Info]	[fetchCompletions] Request 424183de-0531-41ef-a12e-6fcfc9aa41d9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 291.0097000000533ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:40:19.309
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:23.081
+!MESSAGE [Info]	[fetchCompletions] Request d781780b-ef24-454b-874f-dedb8d4de682 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.7835999999661ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:23.132
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:23.421
+!MESSAGE [Info]	[fetchCompletions] Request f446a687-9a24-4ddb-a24a-b539dfdcd5ff at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.7546000001021ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:23.423
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:24.405
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:24.798
+!MESSAGE [Info]	[code-referencing] Match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:24.799
+!MESSAGE [Info]	[code-referencing] Calling FilesForMatch
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:25.240
+!MESSAGE [Info]	[Public Code References] Text found matching public code in file:///c%3A/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/model/Product.java [Ln 17, Col 2] near .BigDecimal;    import org.springframework.data.annotation.Id;  import org.springframework.data.mongodb.core.mapping.Document;    import lombok.AllArgsConstructor;  import lombok.Builder;  import lombok.Data;  import lombok.NoArgsConstructor;    @Document(value = "product")  @Data  @AllArgsConstructor  @NoArgsConstructor  @  publi...:
+  1) [unknown] https://github.com/github-copilot/code_referencing?cursor=548321925182596e3ac0e439028a851d,
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:48.141
+!MESSAGE [Info]	[fetchCompletions] Request 1e94313a-f10a-46b0-8680-e2a71fb051ba at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 282.9810999999754ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:48.324
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:48.617
+!MESSAGE [Info]	[fetchCompletions] Request 564f0b09-2611-408f-b665-9bdfba2f860d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.0590000001248ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:48.619
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:49.966
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:50.245
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:56.591
+!MESSAGE [Info]	[fetchCompletions] Request a9733fef-dbd7-4067-82d0-a286a4ed83d3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.5666000000201ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:41:56.655
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:44:59.105
+!MESSAGE [Info]	[fetchCompletions] Request 74f43abe-ae11-4529-9b49-797133965fbc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 568.5015999998432ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:44:59.106
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-14 11:44:59.176
+!MESSAGE [Error]	[AsyncCompletionManager] [74f43abe-ae11-4529-9b49-797133965fbc] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at C:\snapshot\copilot-client\lib\src\networking.ts:105:19
+    at QIe.invoke (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:55:39)
+    at t.fire (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:117:36)
+    at fee.cancel (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\cancellation.js:41:31) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:44:59.458
+!MESSAGE [Info]	[fetchCompletions] Request 27de986a-acb9-4df0-af28-7f66b752d35e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.99689999991097ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:44:59.478
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:35.807
+!MESSAGE [Info]	[fetchCompletions] Request 77a8b88b-e731-4e8a-a596-fbca6f81db22 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 551.6799999999348ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:35.808
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:40.220
+!MESSAGE [Info]	[fetchCompletions] Request 6128771c-6273-4947-b5f3-82d1cc676f32 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 238.67659999988973ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:40.417
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:40.689
+!MESSAGE [Info]	[fetchCompletions] Request 0efb2e94-5e1a-446e-8680-dead7db455df at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 254.64339999994263ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:40.773
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:46.268
+!MESSAGE [Info]	[fetchCompletions] Request ecd01828-c665-4029-b4aa-46ba5095107c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 238.874199999962ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:46.270
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:55.493
+!MESSAGE [Info]	[fetchCompletions] Request 57c77efb-f118-4c8b-956f-623508b30c74 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 265.96589999995194ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:55.495
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:55.900
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:55.901
+!MESSAGE [Info]	[fetchCompletions] Request 4554db17-5dc3-4d29-970d-29752b09f212 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 253.96299999998882ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:57.067
+!MESSAGE [Info]	[fetchCompletions] Request af30dbaf-a41d-4a77-b2b7-0e229fb8ad39 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 262.406100000022ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:47:57.128
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:08.654
+!MESSAGE [Info]	[fetchCompletions] Request 8bc7bc6c-94d0-4b72-b261-bad2366140b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.02010000008158ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:08.714
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.160
+!MESSAGE [Info]	[fetchCompletions] Request d9d760ff-0b93-4164-8b73-4cecc18903ce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 275.29300000006333ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.253
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.531
+!MESSAGE [Info]	[fetchCompletions] Request ba4b1c21-126e-4e9f-9534-b7bd353c82d9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.0080999999773ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.592
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.907
+!MESSAGE [Info]	[fetchCompletions] Request 19d8b37a-63fd-45f6-bf05-195ba51eb4cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.9619999998249ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:09.969
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:10.313
+!MESSAGE [Info]	[fetchCompletions] Request 1886428d-8aa0-4031-ac15-ab503c4d1615 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.3837000001222ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:10.380
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:10.659
+!MESSAGE [Info]	[fetchCompletions] Request 20e7cc1b-7089-4cff-9f43-fd0486d2f323 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 261.25050000008196ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:10.718
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:10.959
+!MESSAGE [Info]	[fetchCompletions] Request b9c07e88-ec5d-4001-9347-c0863340165b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 226.5272999999579ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:11.015
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:14.785
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:15.555
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:17.438
+!MESSAGE [Info]	[fetchCompletions] Request 5baba860-711c-48b4-9ac4-7546ce1459e9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.5102000001352ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:48:17.441
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:49:58.543
+!MESSAGE [Info]	[agentPrompt] Rendering fresh global context for conversation/turn edce1373-e6db-48a4-a5e3-c3a6cf1bdee6/56af2db5-1105-462a-a960-43c84c44e58e
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 11:49:59.270
+!MESSAGE [Info]	[fetchChat] Request 9ade4e29-1c37-45e9-bef5-c26d85ea4fe0 at <https://api.individual.githubcopilot.com/chat/completions> finished with 400 status after 629.3587999998126ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:05:40.748
+!MESSAGE [Info]	[fetchCompletions] Request 06bd6b4e-cdbc-48cc-8b36-35dd312ec0cf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 570.7584000001661ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:05:40.813
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.779
+!MESSAGE [Info] Document is null for editor: ProductServiceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.781
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/ProductServiceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.888
+!MESSAGE [Info] Document is null for editor: ProductController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.890
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/controller/ProductController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.920
+!MESSAGE [Info] Document is null for editor: ProductRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.923
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/dto/ProductRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.986
+!MESSAGE [Info] Document is null for editor: Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:37.987
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/model/Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:38.041
+!MESSAGE [Info] Document is null for editor: ProductService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:11:38.042
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/service/ProductService.java
+!SESSION 2025-11-14 12:11:40.784 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/hvpra/Desktop/Yanjare/Micro-services/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 12:11:48.465
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 12:11:50.993
+!MESSAGE Logback config file: C:\Users\hvpra\Desktop\Yanjare\Micro-services\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 12:12:03.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hvpra'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:12:03.399
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:12:03.409
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:12:03.948
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:12:09.555
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.381.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:12:09.648
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:12:10.795
+!MESSAGE [Info]	[certificates] Removed 94 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:12:12.584
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.ui 4 0 2025-11-14 12:12:14.423
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.microsoft.copilot.eclipse.core.lsp.protocol.CopilotModel.getId()" because "this.defaultModel" is null
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.restoreActiveModel(ModelService.java:231)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.validateAndSetActiveModelForMode(ModelService.java:276)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$8(ModelService.java:257)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.updateModelsForChatMode(ModelService.java:254)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$6(ModelService.java:141)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$5(ModelService.java:140)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-14 12:15:17.938
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-14 12:15:19.388
+!MESSAGE The POM for org.mongodb:mongodb-driver-core:jar:5.5.2 is invalid, transitive dependencies (if any) will not be available: 4 problems were encountered while building the effective model for org.mongodb:mongodb-driver-core:5.5.2
+[FATAL] Non-parseable POM C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom: end tag name </head> must be the same as start tag <link> from line 15 (position: TEXT seen ...</script>\n\n\n</head>... @20:8)  @ C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom, line 20, column 8
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:57.919
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:58.663
+!MESSAGE [Info]	[fetchCompletions] Request 518fa54f-2210-4d2e-9897-b0ac00c56823 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 726.2063000000198ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:58.723
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:59.035
+!MESSAGE [Info]	[fetchCompletions] Request 07fdce0c-e7b4-42e9-a3d1-8442e3d45621 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.67049999997835ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:59.232
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:15:59.233
+!MESSAGE [Info]	[ghostText] Filtered out solution matching next line
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:41.941
+!MESSAGE [Info]	[fetchCompletions] Request d7f721d8-e807-4590-8c54-f12c54c73180 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 572.3868000000366ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:42.009
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:42.294
+!MESSAGE [Info]	[fetchCompletions] Request e0940f11-486b-48e7-9483-ce5e03e7ba61 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.73750000004657ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:42.363
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:43.639
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:18:44.464
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:35.408
+!MESSAGE [Info]	[fetchCompletions] Request 7ec36a07-ede7-4861-b61d-dbb9df9d81be at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 265.03370000002906ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:35.476
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:35.996
+!MESSAGE [Info]	[fetchCompletions] Request d88585e6-e1f5-42d8-9399-5f65ef52ed94 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 259.97690000000875ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:36.060
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:36.348
+!MESSAGE [Info]	[fetchCompletions] Request bea48a60-b7d0-407e-91a6-d4595ccf77eb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.28250000003027ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:36.411
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:36.689
+!MESSAGE [Info]	[fetchCompletions] Request dee7b3e8-c769-47fa-a3e0-bb2347c26243 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.3920999999973ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:36.691
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:37.961
+!MESSAGE [Info]	[fetchCompletions] Request 084eaead-f840-4e12-9915-653cff979144 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.15579999994952ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:37.965
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:50.198
+!MESSAGE [Info]	[fetchCompletions] Request 06f9a271-1aa1-492d-9436-44a285c96f46 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 259.6125999999931ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:19:50.201
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:20:18.105
+!MESSAGE [Info] Document is null for editor: ProductService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:20:18.107
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/service/ProductService.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:46.495
+!MESSAGE [Info]	[fetchCompletions] Request 7f4c5eb1-1113-4582-a482-b0a4135de473 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 242.44410000002244ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:46.542
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.276
+!MESSAGE [Info]	[fetchCompletions] Request f2b889f6-34ff-4b6a-bbd5-e7ba58e53c7f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 262.9225999999908ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.312
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.595
+!MESSAGE [Info]	[fetchCompletions] Request ae0e4ebc-72e2-4868-aefd-87c5ff05254f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 247.85249999997905ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.598
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-14 12:20:47.615
+!MESSAGE [Error]	[AsyncCompletionManager] [ae0e4ebc-72e2-4868-aefd-87c5ff05254f] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at C:\snapshot\copilot-client\lib\src\networking.ts:105:19
+    at QIe.invoke (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:55:39)
+    at t.fire (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\events.js:117:36)
+    at fee.cancel (C:\snapshot\copilot-client\node_modules\vscode-jsonrpc\lib\common\cancellation.js:41:31) {
+  type: 'aborted',
+  _name: 'AbortError'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.877
+!MESSAGE [Info]	[fetchCompletions] Request 09321d6d-db32-4e1c-97e3-07999cf2201c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.3386000000173ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:47.938
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:48.216
+!MESSAGE [Info]	[fetchCompletions] Request abbac6e8-c8cc-4652-92cb-e20c35816a59 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.75059999991208ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:48.219
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.209
+!MESSAGE [Info]	[fetchCompletions] Request b2e974fa-baa5-4d3f-8b45-6bd70b47ca19 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.0803999999771ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.293
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.549
+!MESSAGE [Info]	[fetchCompletions] Request 17bf4636-af67-4920-981b-1ee4eba19ac2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 239.34610000008252ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.642
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.998
+!MESSAGE [Info]	[fetchCompletions] Request 765ecec0-6555-4b52-ae5c-7435bdf6cde2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 316.172600000049ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:49.999
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.191
+!MESSAGE [Info]	[fetchCompletions] Request 861e9b7a-e46b-43e5-9701-0a1e542e44f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.5738999999594ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.256
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.553
+!MESSAGE [Info]	[fetchCompletions] Request 9daca2fb-c801-4796-9da4-1a3118530132 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.1170999999158ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.556
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.878
+!MESSAGE [Info]	[fetchCompletions] Request 11857816-826b-4c63-90a4-336ad61af8af at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 243.75ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:52.881
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:53.181
+!MESSAGE [Info]	[fetchCompletions] Request f47f585b-c402-44ae-8884-466399935269 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.60739999997895ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:53.184
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:53.972
+!MESSAGE [Info]	[fetchCompletions] Request ef5b91b2-b6a1-400f-abb1-a1fbe1c1cc38 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 274.0010000000475ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:54.035
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:54.305
+!MESSAGE [Info]	[fetchCompletions] Request 25bea785-91ff-415a-971f-bc5d5baf4469 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 258.29980000003707ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:54.306
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:55.010
+!MESSAGE [Info]	[fetchCompletions] Request 73e5bd81-ea99-4927-bdcf-01b79c663c59 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 270.9625999999698ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:55.012
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:55.658
+!MESSAGE [Info]	[fetchCompletions] Request b7ed0188-c823-4cfc-89e0-d7b6d7b414d2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.88750000006985ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:55.661
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:56.592
+!MESSAGE [Info]	[fetchCompletions] Request bd432319-8ab3-48b8-bca5-8bbac7178abd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.28449999995064ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:56.594
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:57.434
+!MESSAGE [Info]	[fetchCompletions] Request e111c1e7-b530-4eef-b198-732024e0ecce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.9609000000637ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:57.435
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:57.737
+!MESSAGE [Info]	[fetchCompletions] Request 288af210-7c0c-410a-9036-faaaa3f5bdc3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.74250000005122ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:57.738
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:58.286
+!MESSAGE [Info]	[fetchCompletions] Request 9a51db99-feac-46f8-ac0b-1f8cbc81e002 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.3307999999961ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:58.288
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:58.795
+!MESSAGE [Info]	[fetchCompletions] Request 2c4ddd85-3402-4668-9e4c-88183ca61afb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.62919999996666ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:20:58.797
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:00.879
+!MESSAGE [Info]	[fetchCompletions] Request 98514bae-476a-470c-a86d-9614759fe999 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 259.8617999999551ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:00.938
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:01.592
+!MESSAGE [Info]	[fetchCompletions] Request e980aaef-feb1-4d3a-8328-d3affd522fd8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.99950000003446ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:01.592
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:03.667
+!MESSAGE [Info]	[fetchCompletions] Request 11e66fb7-c5ea-4b32-8ec9-d76a4b7184ce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.8347000000067ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:03.668
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:04.686
+!MESSAGE [Info]	[fetchCompletions] Request 2ab21810-f633-4d01-b79e-bbea662f9f8f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 237.89960000000428ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:04.687
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:07.852
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:07.853
+!MESSAGE [Info]	[fetchCompletions] Request 3ded1809-a1e3-4b7a-a67d-d9a3edc002cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 244.19959999993443ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:08.206
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:08.206
+!MESSAGE [Info]	[fetchCompletions] Request 356ba71e-039b-451a-9b76-b9aec382817f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.20880000002217ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:08.825
+!MESSAGE [Info]	[fetchCompletions] Request 58bd9904-82ce-443f-ba20-7aa3adcd861c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 258.07240000006277ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:08.966
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:09.235
+!MESSAGE [Info]	[fetchCompletions] Request 19ab3967-42f4-43a5-9169-00c355cf0f8c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.86830000008922ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:09.409
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:09.682
+!MESSAGE [Info]	[fetchCompletions] Request 89d70d49-46f4-4458-892c-00a02b92f644 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.10970000003ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:09.684
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:10.312
+!MESSAGE [Info]	[fetchCompletions] Request fb9a666a-3f53-43f4-9a70-8caf2ec61814 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 277.5378999999957ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:10.428
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:10.721
+!MESSAGE [Info]	[fetchCompletions] Request edcf4b9e-8967-4eb3-90c7-dcae9f43340c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.60959999996703ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:10.723
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:11.211
+!MESSAGE [Info]	[fetchCompletions] Request 24db9bc4-0c77-4905-ace0-65bc5bbbb5b7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 270.54350000002887ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:11.212
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:14.412
+!MESSAGE [Info]	[fetchCompletions] Request 41d1240e-e9cf-4975-abe5-e5f208329eb2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 262.0021999999881ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:14.478
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:14.781
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:14.782
+!MESSAGE [Info]	[fetchCompletions] Request 53e7607a-6a67-4e5e-865d-e583295d15ae at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.25990000006277ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:16.972
+!MESSAGE [Info]	[fetchCompletions] Request aeb12ea5-b021-44d3-87f8-0a7d2319f5b5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.36450000002515ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:17.043
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:17.309
+!MESSAGE [Info]	[fetchCompletions] Request ef0966b1-6128-4d7e-bde5-d5fbde4cf98d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.671399999992ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:17.310
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:17.802
+!MESSAGE [Info]	[fetchCompletions] Request f9c0db99-d82c-413b-9441-b34732858686 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 242.50749999994878ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:17.803
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:18.157
+!MESSAGE [Info]	[fetchCompletions] Request 5aa69d9f-fd29-48cd-8ec3-44578323f47e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.2581999999238ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:18.226
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:18.495
+!MESSAGE [Info]	[fetchCompletions] Request 1de067f4-454d-4132-96c3-c01de8ed6c5f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.70799999998417ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:18.499
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:21.362
+!MESSAGE [Info]	[fetchCompletions] Request 10959ba3-11a2-4423-9e7d-1d285c247bbb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 243.25870000000577ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:21.365
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:24.022
+!MESSAGE [Info]	[fetchCompletions] Request 5e5f46d8-65be-46df-84a0-87e517f33b3a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.08769999991637ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:24.099
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:24.365
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:24.366
+!MESSAGE [Info]	[fetchCompletions] Request afe42d93-05c9-4e5f-82d9-5fb1b9c6b357 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.8853999999119ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:30.150
+!MESSAGE [Info]	[fetchCompletions] Request 3fdf2f9f-11e4-4f2d-b939-91eb554f0a5f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.6663000000408ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:30.211
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:57.697
+!MESSAGE [Info]	[fetchCompletions] Request b0605e04-2ae2-4b9d-8a90-a45dc6ff8b1e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.3165999999037ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:57.698
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:58.938
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:58.938
+!MESSAGE [Info]	[fetchCompletions] Request b8beaa60-e2fa-42be-bad5-97dc2b9574c4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 255.95679999992717ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:59.413
+!MESSAGE [Info]	[fetchCompletions] Request 3ca1304c-7085-41a0-9ab1-6b8a1f43b4d1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.7778999999864ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:21:59.416
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:00.059
+!MESSAGE [Info]	[fetchCompletions] Request 60232691-e713-40bd-b9c9-b31debdd797b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 247.22409999999218ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:00.060
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:00.464
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:00.465
+!MESSAGE [Info]	[fetchCompletions] Request faf59c4a-0ba8-4435-a6eb-d3dc65b00b93 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.3896999999415ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:01.149
+!MESSAGE [Info]	[fetchCompletions] Request 4b97997e-4a08-4f04-ac72-0fded3ddbd40 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.3122999999905ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:01.151
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:01.757
+!MESSAGE [Info]	[fetchCompletions] Request 483934e1-934b-49c9-bd3a-19fdea4561e6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 244.8869999999879ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:01.820
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:02.824
+!MESSAGE [Info]	[fetchCompletions] Request c4daa468-fcd7-4228-8962-0b2aa2c4b9ab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 243.52569999999832ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:02.825
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:03.297
+!MESSAGE [Info]	[fetchCompletions] Request 53a1cd92-fac2-4000-a66d-c4030407b576 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.36919999995735ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:03.298
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.094
+!MESSAGE [Info]	[fetchCompletions] Request a23408a3-5680-41d7-8ff7-94abb60e773e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 243.85290000005625ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.164
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.441
+!MESSAGE [Info]	[fetchCompletions] Request b337465a-a770-4bf2-a466-812ea96157a5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.4244999999646ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.450
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.868
+!MESSAGE [Info]	[fetchCompletions] Request 57a1d176-77be-40e7-b87c-692d0d2e93cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.12080000003334ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:04.961
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:05.506
+!MESSAGE [Info]	[fetchCompletions] Request 9e649aa7-0035-4a9b-93ac-12f4beab530f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 237.72349999996368ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:05.507
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:06.563
+!MESSAGE [Info]	[fetchCompletions] Request 4bd9c8a7-07f1-4da8-9873-6b224fd8d008 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.15890000003856ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:06.731
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:07.014
+!MESSAGE [Info]	[fetchCompletions] Request 2ef33ef8-2db6-481b-978f-027b7fd5561e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.3810999999987ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:07.015
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:10.466
+!MESSAGE [Info]	[fetchCompletions] Request 112cebc9-e4e7-48d4-9b8e-27f1041508f9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.39529999997467ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:10.467
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:11.690
+!MESSAGE [Info]	[fetchCompletions] Request 7cd663ab-a09b-4ca7-bea5-701ac0458f04 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.00239999999758ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:11.691
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.005
+!MESSAGE [Info]	[fetchCompletions] Request e9781e7d-2e0b-42e1-8985-f4cecfc2c6a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 262.00900000007823ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.151
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.454
+!MESSAGE [Info]	[fetchCompletions] Request ec8764ac-cb8e-4a68-a855-6011e385173b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 242.49869999999646ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.612
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.878
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:12.879
+!MESSAGE [Info]	[fetchCompletions] Request 63c3e4d4-6848-4013-8af6-c412891da980 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.953199999989ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:14.407
+!MESSAGE [Info]	[fetchCompletions] Request f483d077-c669-4b54-8b27-3e529d7ffcb8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 264.7300999999279ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:14.490
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:14.762
+!MESSAGE [Info]	[fetchCompletions] Request 6aa5c1bf-1f8c-4efe-9253-1d093a0b2016 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.57189999998081ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:14.764
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:22.911
+!MESSAGE [Info]	[fetchCompletions] Request 98e53840-5378-41fe-b40e-988df07cce77 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.44079999998212ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:22.913
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:27.509
+!MESSAGE [Info]	[fetchCompletions] Request 92a36dd0-4ce5-4be5-8053-cee4c0b9846e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 255.07070000004023ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:27.572
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:27.840
+!MESSAGE [Info]	[fetchCompletions] Request dd34f411-7af0-40a6-8ee0-717ad9a478a2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.44940000004135ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:27.842
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:29.942
+!MESSAGE [Info]	[fetchCompletions] Request 871c213b-e92d-4c99-9edf-d3c5a54a2734 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 247.64120000007097ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:30.044
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:30.309
+!MESSAGE [Info]	[fetchCompletions] Request c1997708-9fb8-4c35-b0e3-2c80c3f8621f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.34970000002068ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:30.312
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:30.694
+!MESSAGE [Info]	[fetchCompletions] Request 3fc949eb-a270-4c38-96de-14562b7200f8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 244.96080000000075ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:30.698
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:31.442
+!MESSAGE [Info]	[fetchCompletions] Request 51be77cd-49a3-4f8a-bf9e-5ae4ee8839ec at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 273.8235000000568ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:31.507
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:31.772
+!MESSAGE [Info]	[fetchCompletions] Request 617ca6a9-c851-4a17-a245-1a2dcdb8086e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.72479999996722ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:31.775
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:36.410
+!MESSAGE [Info]	[fetchCompletions] Request fcf260d9-c3ae-42ce-855c-5cc6480b433d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.90240000002086ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:36.477
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:38.961
+!MESSAGE [Info]	[fetchCompletions] Request 89861f61-8dbb-40cb-8ab2-09d0915e044a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 247.250400000019ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:39.023
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:39.286
+!MESSAGE [Info]	[fetchCompletions] Request df4c885a-2bbe-4f8f-97d3-e2acdac446c5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 244.6347999999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:39.289
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:40.723
+!MESSAGE [Info]	[fetchCompletions] Request cb41ddf2-38d4-4eb8-9edc-472cf4bbf3dd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 245.48479999997653ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:40.884
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:41.169
+!MESSAGE [Info]	[fetchCompletions] Request 9f0a0e8d-bd8f-47f7-9a4e-72f7ed5d2ead at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.4346000000369ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:41.254
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:43.280
+!MESSAGE [Info]	[fetchCompletions] Request 9956216a-a80a-4c59-88be-000a02f8d251 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 300.4969000000274ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:43.405
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:43.695
+!MESSAGE [Info]	[fetchCompletions] Request ae4ab801-04f2-4af5-a255-f7d71ac26099 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 258.9990000000689ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:43.697
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:47.353
+!MESSAGE [Info]	[fetchCompletions] Request a3c85e8d-c532-46e3-980a-b70ef45f1ebe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.36190000001807ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:47.414
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:48.534
+!MESSAGE [Info]	[fetchCompletions] Request 4b53b734-d134-4ca3-897c-3142abe489ac at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 273.32970000000205ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:22:48.605
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:01.308
+!MESSAGE [Info]	[fetchCompletions] Request 8079aa9e-224f-4985-b758-d0d58330b800 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.90760000003502ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:01.410
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:01.701
+!MESSAGE [Info]	[fetchCompletions] Request 49322072-feca-4058-b915-cf473035633d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.6985000000568ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:01.761
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:06.049
+!MESSAGE [Info]	[fetchCompletions] Request e6b5dc31-104f-4a9f-aabf-1710e29f1ece at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 240.81369999994058ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:06.482
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:06.770
+!MESSAGE [Info]	[fetchCompletions] Request 2ce65eaa-bae5-4a2a-b23c-689bc9e25e9d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 261.3756000000285ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:06.829
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:09.526
+!MESSAGE [Info]	[fetchCompletions] Request 998011d6-990b-48d2-8fa6-d1fb75ae44e5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 272.6524999999674ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:09.635
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:09.976
+!MESSAGE [Info]	[fetchCompletions] Request 5e61a917-ea6e-43ed-93ea-d13ccb4d150d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.0449999999255ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:10.002
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:12.082
+!MESSAGE [Info]	[fetchCompletions] Request 59d35d42-df41-493c-8956-87792f269c26 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.30200000002515ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:12.146
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:15.954
+!MESSAGE [Info]	[fetchCompletions] Request eb784a87-849d-4df6-b82e-ce115eaba009 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.39019999990705ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:16.014
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:17.033
+!MESSAGE [Info]	[fetchCompletions] Request 9e205275-f2cf-443f-a6dc-045e04122e36 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.70470000000205ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:23:17.095
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:07.918
+!MESSAGE [Info]	[fetchCompletions] Request 1e0e28c6-03e4-40d5-8c22-f799548d79e3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 261.3947000000626ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:08.008
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:08.295
+!MESSAGE [Info]	[fetchCompletions] Request 97878630-a192-49a6-a30a-e95832bac971 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 260.8493999999482ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:08.354
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:13.087
+!MESSAGE [Info]	[fetchCompletions] Request 1b669a42-4ba5-4ecd-ab9b-2bb513bc37b9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 255.27430000004824ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:13.146
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:43.050
+!MESSAGE [Info]	[fetchCompletions] Request ef5e5eaa-fb43-47f4-b109-14771214024a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 254.6325000000652ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:43.114
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:43.387
+!MESSAGE [Info]	[fetchCompletions] Request bece2378-45d9-4d67-a82d-d7ad3f5c3761 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.43440000002738ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:43.443
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:44.538
+!MESSAGE [Info]	[fetchCompletions] Request dba51c4a-e3eb-4916-89ec-eb732e31a9e5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 240.21210000000428ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:44.596
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:44.855
+!MESSAGE [Info]	[fetchCompletions] Request f6d123d5-d8b7-4e90-88ae-bf0e927be56f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 238.80569999990985ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:44.922
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:45.496
+!MESSAGE [Info]	[fetchCompletions] Request ba15c760-1c84-49a8-b1da-2f1ec3cac3ff at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 240.13909999991301ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:45.574
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:47.002
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:47.780
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:55.587
+!MESSAGE [Info]	[fetchCompletions] Request 1f547215-0d5a-42e7-b26f-1f9e336dc1f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 251.9808999999659ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:55.661
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:55.950
+!MESSAGE [Info]	[fetchCompletions] Request 4d35c3df-f9af-421e-b3df-c758d96363a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 266.451999999932ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:24:56.016
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:25:44.966
+!MESSAGE [Info]	[fetchCompletions] Request 9f6668c3-5a71-4e3b-8ed7-0ff09a9e47ab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 246.68740000005346ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:25:45.028
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:25:46.010
+!MESSAGE [Info]	[fetchCompletions] Request dd329dea-e787-4486-b0fe-254f0b8ef423 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.2882999998983ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:25:46.010
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:00.822
+!MESSAGE [Info]	[fetchCompletions] Request 5f4d66b9-89bc-4588-998c-abceec1ee23f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 238.74669999990147ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:00.889
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:01.160
+!MESSAGE [Info]	[fetchCompletions] Request 8fcd3a85-b591-40a1-b1d6-799ee25195af at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 252.90429999993648ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:01.224
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:02.428
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:02.689
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.309
+!MESSAGE [Info] Document is null for editor: ProductServiceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.311
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/ProductServiceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.348
+!MESSAGE [Info] Document is null for editor: Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.350
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/model/Product.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.400
+!MESSAGE [Info] Document is null for editor: ProductService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:15.416
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/hvpra/Desktop/Yanjare/Micro-services/product-service/src/main/java/com/yg/microservices/product/service/ProductService.java
+!SESSION 2025-11-14 12:26:18.631 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.8
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/hvpra/Desktop/Yanjare/Micro-services/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 12:26:25.307
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 12:26:27.467
+!MESSAGE Logback config file: C:\Users\hvpra\Desktop\Yanjare\Micro-services\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 12:26:37.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hvpra'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:37.719
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:37.735
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-11-14 12:26:37.980
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:43.885
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.381.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:43.939
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:44.922
+!MESSAGE [Info]	[certificates] Removed 94 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:26:46.260
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.ui 4 0 2025-11-14 12:26:47.327
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.microsoft.copilot.eclipse.core.lsp.protocol.CopilotModel.getId()" because "this.defaultModel" is null
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.restoreActiveModel(ModelService.java:231)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.validateAndSetActiveModelForMode(ModelService.java:276)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$8(ModelService.java:257)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.updateModelsForChatMode(ModelService.java:254)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$6(ModelService.java:141)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ChatBaseService.ensureRealm(ChatBaseService.java:104)
+	at com.microsoft.copilot.eclipse.ui.chat.services.ModelService.lambda$5(ModelService.java:140)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-14 12:31:59.435
+!MESSAGE The POM for org.mongodb:mongodb-driver-core:jar:5.5.2 is invalid, transitive dependencies (if any) will not be available: 4 problems were encountered while building the effective model for org.mongodb:mongodb-driver-core:5.5.2
+[FATAL] Non-parseable POM C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom: end tag name </head> must be the same as start tag <link> from line 15 (position: TEXT seen ...</script>\n\n\n</head>... @20:8)  @ C:\Users\hvpra\.m2\repository\io\netty\netty-bom\4.1.87.Final\netty-bom-4.1.87.Final.pom, line 20, column 8
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-buffer:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-handler:jar is missing. @ 
+[ERROR] 'dependencies.dependency.version' for io.netty:netty-transport:jar is missing. @
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-11-14 12:32:11.519
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
