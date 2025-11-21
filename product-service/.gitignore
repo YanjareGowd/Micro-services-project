@@ -31,3 +31,64 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+##############################
+# Java / Spring Boot
+##############################
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+
+##############################
+# IDE Files
+##############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.metadata/
+
+# VS Code
+.vscode/
+
+##############################
+# Docker & MongoDB
+##############################
+
+data/
+*/data/
+**/mongodb/
+**/data/db/
+**/mongo-data/
+**/journal/
+**/WiredTiger*
+**/*.wt
+
+##############################
+# OS Files
+##############################
+
+Thumbs.db
+.DS_Store
+
+##############################
+# Node (optional)
+##############################
+
+node_modules/
+dist/
